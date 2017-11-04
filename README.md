@@ -59,8 +59,6 @@ SERVICE: [node-koa](https://github.com/jkchao/node-koa)
 
 - ~归档~
 
-- ~过渡效果优化~
-
 ## Build Setup
 
 ``` bash
