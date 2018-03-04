@@ -17,6 +17,7 @@
 
 const articleView = () => import('~/components/common/article')
 
+
 export default {
 
   scrollToTop: true,
