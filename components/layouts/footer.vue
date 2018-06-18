@@ -18,13 +18,14 @@
 
     <div class="container center">
       <p class="mune">
-        <nuxt-link to="/about">我</nuxt-link>
+        <nuxt-link to="/about">关于博主</nuxt-link>
         <span class="hr"></span>
         <nuxt-link to="/wall">留言墙</nuxt-link>
         <span class="hr"></span>
         <nuxt-link to="/sitemap">归档</nuxt-link>
       </p>
     </div>
+  
 
     <!-- <div class="container">
       <p class="icp">
@@ -89,7 +90,6 @@ footer {
     }
 
     > .mune {
-      padding: $normal-pad / 2 $normal-pad;
       border-top: 1px solid $border-color;
     }
   }

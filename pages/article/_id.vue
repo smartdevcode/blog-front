@@ -192,7 +192,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scope>
+<style lang="scss" scoped>
 
 .article-list {
   width: $container-min-width;
@@ -512,17 +512,19 @@ export default {
 
   >aside {
     position: fixed;
-    right: 0;
-    bottom: 8.8rem;
+    top: $xlg-pad * 6;
+    margin-left: -$xlg-pad * 3;
 
     > div {
       position: relative;
       width: $xlg-pad;
       height: $xlg-pad;
+      margin-bottom: $normal-pad;
       text-align: center;
       line-height: $xlg-pad;
       border: 1px solid $border-color;
-      box-shadow: 0 2px 4px 0 rgba(0,0,0,.14);
+      border-radius: 50%;
+      box-shadow: 0 2px 4px 0 rgba(0,0,0,.04);
       cursor: pointer;
 
       &.like:hover {
@@ -551,8 +553,8 @@ export default {
 
       > span {
         position: absolute;
-        left: -0.8rem;
-        top: -10px;
+        right: -0.5rem;
+        top: -5px;
         line-height: 1;
         color: $black;
         font-size: 1rem;
