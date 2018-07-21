@@ -18,14 +18,13 @@
 
     <div class="container center">
       <p class="mune">
-        <nuxt-link to="/about">关于博主</nuxt-link>
+        <nuxt-link to="/about">我</nuxt-link>
         <span class="hr"></span>
         <nuxt-link to="/wall">留言墙</nuxt-link>
         <span class="hr"></span>
         <nuxt-link to="/sitemap">归档</nuxt-link>
       </p>
     </div>
-  
 
     <!-- <div class="container">
       <p class="icp">
@@ -45,7 +44,7 @@
 <script>
 
 export default {
-  name: 'footer',
+  name: 'Mfooter',
 
   computed: {
     mobileLayout () {
@@ -73,8 +72,9 @@ export default {
 footer {
   margin-top: $normal-pad;
   padding: $normal-pad 0;
-  background: $module-bg;
+  background: $white;
   border-top: 1px solid $border-color;
+  color: var(--text);
 
   >.container {
     display: flex;
@@ -90,6 +90,7 @@ footer {
     }
 
     > .mune {
+      padding: $normal-pad / 2 $normal-pad;
       border-top: 1px solid $border-color;
     }
   }
